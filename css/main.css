@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+
+/*
+Explore California style sheet
+copyright lynda.com 2010
+styles used here may be used
+for educational purposes only
+do not repurpose these styles
+or republish them without permission
+from the author
+*/
+
+/*color guide:
+#e1d8b9 sand
+#cb7d20 orange
+#952 accent orange (dark)
+#3c6b92 main blue
+#2c566a teal
+#c3cebc light green
+#7f7f7f accent gray
+*/
+
+/*limited reset*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a {
+	text-decoration: none;
+}
+
+/*html5 display rule*/
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+	display: block;
+}
+
+body {
+	background: #ddd;
+	text-align: center;
+	font: 100% Georgia, "Times New Roman", Times, serif;
+}
+
+nav ul, ul.menu {
+	list-style: none;
+}
+
+/* layout styles */
+
+
+
+
+/*trail news aside styles*/
+
+/*form styles*/
+.news{
+    
+    padding: 1em;
+    margin-left: 30em;
+    margin-top: 10em;
+    background-color: #e1d8b9 ;
+    width:400px;
+    height: auto;
+}
+
+.newsq
+{
+    align-content: left;
+    
+}
+
+
+.newsq label {
+    padding: 0.3em;
+    margin-left: 0;
+  align-self: flex-start;
+	margin: 2em 2em 2em;
+	
+
+}
+
+.news input{
+    float: inherit; 
+}
+input:focus {
+	border: 1px solid #952;
+}
+/*input[type="number"] {
+	width: 3em;
+}
+input[type="text"], input[type="email"],input[type="url"] {
+	width: 350px;
+	height: 20px;
+}
+textarea {
+    align-self: right;
+	width: 350px;
+	height: 125px;
+	display: block;
+	margin-bottom: 1em;
+    margin-left: 1em;
+}
+*/
+
+
+	
+
+
+
